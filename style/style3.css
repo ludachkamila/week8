@@ -1,0 +1,82 @@
+.header-line{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 76px;
+    padding-right: 74px;
+}
+.card-title{
+    font-size: 60px;
+    font-weight: 400;
+    font-weight: bold;
+    padding-left: 125px;
+}
+.card-item{
+    width: 365px;
+}
+.card-text{
+    font-size: 30px;
+    font-weight: 400;
+    font-weight: bold;
+    padding-top: 23px;
+    padding-bottom: 10px;
+}
+.card-novos{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+}
+.card-subtext{
+    font-size: 20px;
+    font-weight: 300;
+}
+.card-items{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 125px;
+}
+.card-nov{
+    background-color: #EC615B;
+    width: 365px;
+}
+.emails{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input[type=email] {
+    width: 365px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.nov-button{
+    padding-left: 18px;
+    padding-top: 23px;
+}
+.content{
+    display: flex;
+    justify-content: start;
+}
+.completed-item{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 126px;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: start;
+    margin-top: 112px;
+    
+}
+@media  (max-width:1250px) {
+    .card-items{
+        flex-direction: column;
+    }
+}
